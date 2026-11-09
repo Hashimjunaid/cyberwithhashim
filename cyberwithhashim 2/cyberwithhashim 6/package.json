@@ -7,7 +7,7 @@
     "server"
   ],
   "scripts": {
-    "build": "npm run build -w client",
+    "build": "cd client && bun run build",
     "deploy": "wrangler deploy"
   },
   "devDependencies": {

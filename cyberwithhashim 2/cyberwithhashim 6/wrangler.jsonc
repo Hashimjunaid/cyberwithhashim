@@ -1,0 +1,14 @@
+{
+  "name": "cyberwithhashim",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-09",
+  "assets": {
+    "directory": "./client/dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  },
+  "vars": {
+    "INSTAGRAM_USERNAME": "cyberwithhashim",
+    "INSTAGRAM_API_VERSION": "v25.0"
+  }
+}
